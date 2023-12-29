@@ -1,0 +1,42 @@
+
+
+h1{
+    font-family: 'Pacifico', cursive;
+  position: relative;
+  font-size: 50px;
+  cursor: pointer;
+
+}
+
+h1::before{
+    content: '';
+    position: absolute;
+    background-color: #FEC260;
+    width: 25%;
+    height: 20px;
+    bottom: 0;
+    left: 38%;
+    z-index: -1;
+     
+}
+h1:hover::before{
+    height: 40px;
+    transition: all 1s;
+}
+
+body{
+    background-color: #F7ECDE;
+}
+
+h2{
+    font-family: 'Righteous', sans-serif;
+ background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ 
+
+}
+.bookmark-content{
+    border-style:dotted;
+    border-width: 2px 0 2px 0;
+}
